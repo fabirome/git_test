@@ -1,0 +1,38 @@
+#cuer{
+    background-color: aqua;
+}
+#titulo {
+    color:rgb(255, 0, 157);
+    font-size: 80px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border-color: black;
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 10px;
+    background-color:lightyellow;  
+    text-align: center;  
+    outline-style: groove; t
+    outline-width: 10px; 
+    outline-color:blueviolet;
+    outline-offset: 10px;
+    text-shadow: 20px;
+
+}
+#nav {
+    color:brown;
+    font-size: 40px;
+    border-color:rgb(255, 0, 157);
+    border-style: groove;
+    text-align: center;
+}
+.formu {
+    color:crimson;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align:left;
+ }
+ #imagen{
+     width: 500px;
+     border-radius: 40%;
+     text-align: center;
+ }

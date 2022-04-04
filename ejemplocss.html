@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Botanica</title>
+        <meta charset="utf-8"/>
+        <link href=" estilo.css " rel="stylesheet" >
+    </head> 
+    <body id="cuer">
+        
+        <header><h1 id="titulo"> La Botanica</h1></header>
+        <nav id="nav"> 
+            <a href="https://es.wikipedia.org/wiki/Men%C3%BA_(restaurante)">Menu  | </a>
+            <a href="https://blancfloreria.com.mx/?gclid=EAIaIQobChMIueOvwvbV9gIVYxPUAR2gJwgKEAAYAiAAEgLXy_D_BwE">Flores  |  </a>
+            <a href="https://vun.inifap.gob.mx/VUN_MEDIA/BibliotecaWeb/_media/_folletoinformativo/1044_4729_Plantas_medicinales_la_realidad_de_una_tradici%C3%B3n_ancestral.pdf"> Plantas Medicinales </a>
+        </nav>
+        <main>
+            <figure>
+                <img id="imagen" src="https://conceptodefinicion.de/wp-content/uploads/2019/11/Bot%C3%A1nica-3.jpg" alt="Flores hermosas"/>
+                <figcaption>Botanica de suculentas</figcaption>
+            </figure>
+            <section>
+               <ul>
+                   <li>Plantas medicinales</li>
+                   <li>Suculentas</li>
+                   <li>Catus</li>
+                   <li>Arboles</li>
+               </ul>
+            </section>
+               <ol type="i" reversed>
+                   <li>Plantas medicinales</li>
+                   <li>Suculentas</li>
+                   <li>Cactus</li>
+                   <li>Arboles</li>
+               </ol>
+            <section>
+                <details>
+                    <Summary>Tipo de plantas:</Summary>
+                    <p> Suculentas</p>
+                    <p> Cactus</p>
+                    <p> Arboles</p>
+                </details>
+            </section>
+            <section>
+              <table>
+                <tr>
+                    <th>Nombre de planta</th>
+                    <th>Tipo de planta</th>
+                    <th>Color de planta</th>
+                    <th>¿Es planta medicinal?</th>
+                </tr>
+                <tr>
+                    <td>Cactus</td>
+                    <td>Cactacea</td>
+                    <td>verde</td>
+                    <td>Si</td>
+                </tr>
+                <tr>
+                    <td>Hierba buena</td>
+                    <td>Hierba</td>
+                    <td>Verde</td>
+                    <td>Si</td>
+                </tr>
+                <tr>
+                    <td>Manzanilla</td>
+                    <td>Hierba</td>
+                    <td>Verde</td>
+                    <td>Si</td>
+                </tr>
+              </table>
+            </section>
+            <form class="formu" name="formulario" method="get">
+                <label for="nombre">Nombre:</label> <input name="nombre" type="text"/>
+                <label for="edad">Edad:</label><input name="edad" type="number"/>
+                <label for="correo electronico">Correo electronico:</label><input  name="correo electronico" type="email"/>
+                <button type="submit">Enviar informacion</button>
+            </form>
+            <form  class="formu" name="formulario edad" method="get">
+                <label>Edad:</label>
+                <input name="edad10" type="radio" value="10"/><label for="edad10">10 años</label>
+                <input name="edad15" type="radio" value="15"/><label for="edad15">15 años</label>
+                <input name="edad20" type="radio" value="20"/><label for="edad20">20 años</label>
+                <input name="edad25" type="radio" value="25"/><label for="edad25">25 años</label>
+                <button type="submit">Enviar formulario</button>
+            </form>
+            <form  class="formu" name="formulario edad" method="get">
+                <form  name="formulario lista" method="get">
+                <datalist id="lista">
+                    <option value="fabiola_rosa@hotmail.com" label="correo 1">
+                    <option value="godinez64@hotmail.com"  label="correo 2">     
+                </datalist>
+                <label for="correoelectornico">Correo electronico:</label> <input name="correoelectornico" type="email" list="lista" >
+                <button type="submit"> Enviar formulario</button>
+            </form>    
+            <form  class="formu" name="formulario edad" method="get">
+                <form  name="formlist" method="get">
+                <label>Canciones:
+                    <select name="canciones">
+                    <option value="1">La vikina<option>
+                    <option value="2">El rey</option>
+                    <option value="3">Toy story</option> 
+                    <option value="4">Maria</option>
+                    </select>
+                </label> 
+                <button type="submit">Enviar formulario</button>
+            </form> 
+            <p><a  href="#titulo">Regresar a titulo</a></p>  
+            <button><a href="#titulo">Regresar</a></button>
+        </main>
+    </body>  
+</html>
+
